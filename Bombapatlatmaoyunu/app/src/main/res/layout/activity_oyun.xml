@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/teal_200">
+
+    <androidx.gridlayout.widget.GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="405dp"
+        android:layout_height="456dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/i18"
+            android:layout_width="102.25dp"
+            android:layout_height="91dp"
+            app:layout_column="1"
+            app:layout_row="4"
+            app:srcCompat="@drawable/patlama" />
+
+        <ImageView
+            android:id="@+id/i13"
+            android:layout_width="102.25dp"
+            android:layout_height="91dp"
+            app:layout_column="0"
+            app:layout_row="3"
+            app:srcCompat="@drawable/patlama" />
+
+        <ImageView
+            android:id="@+id/i11"
+            android:layout_width="102.25dp"
+            android:layout_height="91dp"
+            app:layout_column="2"
+            app:layout_row="2"
+            app:srcCompat="@drawable/patlama" />
+
+        <ImageView
+            android:id="@+id/i9"
+            android:layout_width="102.25dp"
+            android:layout_height="91dp"
+            app:layout_column="0"
+            app:layout_row="2"
+            app:srcCompat="@drawable/patlama" />
+
+        <ImageView
+            android:id="@+id/i8"
+            android:layout_width="102.25dp"
+            android:layout_height="91dp"
+            app:layout_column="3"
+            app:layout_row="1"
+            app:srcCompat="@drawable/patlama" />
+
+        <ImageView
+            android:id="@+id/i6"
+            android:layout_width="102.25dp"
+            android:layout_height="91dp"
+            app:layout_column="1"
+            app:layout_row="1"
+            app:srcCompat="@drawable/patlama" />
+
+        <ImageView
+            android:id="@+id/i5"
+            android:layout_width="102.25dp"
+            android:layout_height="91dp"
+            app:layout_column="0"
+            app:layout_row="1"
+            app:srcCompat="@drawable/patlama" />
+
+        <ImageView
+            android:id="@+id/i4"
+            android:layout_width="102.25dp"
+            android:layout_height="91dp"
+            app:layout_column="3"
+            app:layout_row="0"
+            app:srcCompat="@drawable/patlama" />
+
+        <ImageView
+            android:id="@+id/i3"
+            android:layout_width="102.25dp"
+            android:layout_height="91dp"
+            app:layout_column="2"
+            app:layout_row="0"
+            app:srcCompat="@drawable/patlama" />
+
+        <ImageView
+            android:id="@+id/i2"
+            android:layout_width="102.25dp"
+            android:layout_height="91dp"
+            app:layout_column="1"
+            app:layout_row="0"
+            app:srcCompat="@drawable/patlama" />
+
+        <ImageView
+            android:id="@+id/i20"
+            android:layout_width="102.25dp"
+            android:layout_height="91dp"
+            app:layout_column="3"
+            app:layout_row="4"
+            app:srcCompat="@drawable/patlama" />
+
+        <ImageView
+            android:id="@+id/i17"
+            android:layout_width="102.25dp"
+            android:layout_height="91dp"
+            app:layout_column="0"
+            app:layout_row="4"
+            app:srcCompat="@drawable/patlama" />
+
+        <ImageView
+            android:id="@+id/i16"
+            android:layout_width="102.25dp"
+            android:layout_height="91dp"
+            app:layout_column="3"
+            app:layout_row="3"
+            app:srcCompat="@drawable/patlama" />
+
+        <ImageView
+            android:id="@+id/i15"
+            android:layout_width="102.25dp"
+            android:layout_height="91dp"
+            app:layout_column="2"
+            app:layout_row="3"
+            app:srcCompat="@drawable/patlama" />
+
+        <ImageView
+            android:id="@+id/i14"
+            android:layout_width="102.25dp"
+            android:layout_height="91dp"
+            app:layout_column="1"
+            app:layout_row="3"
+            app:srcCompat="@drawable/patlama" />
+
+        <ImageView
+            android:id="@+id/i12"
+            android:layout_width="102.25dp"
+            android:layout_height="91dp"
+            app:layout_column="3"
+            app:layout_row="2"
+            app:srcCompat="@drawable/patlama" />
+
+        <ImageView
+            android:id="@+id/i10"
+            android:layout_width="102.25dp"
+            android:layout_height="91dp"
+            app:layout_column="1"
+            app:layout_row="2"
+            app:srcCompat="@drawable/patlama" />
+
+        <ImageView
+            android:id="@+id/i19"
+            android:layout_width="102.25dp"
+            android:layout_height="91dp"
+            app:layout_column="2"
+            app:layout_row="4"
+            app:srcCompat="@drawable/patlama" />
+
+        <ImageView
+            android:id="@+id/i7"
+            android:layout_width="102.25dp"
+            android:layout_height="91dp"
+            app:layout_column="2"
+            app:layout_row="1"
+            app:srcCompat="@drawable/patlama" />
+
+        <ImageView
+            android:id="@+id/b1"
+            android:layout_width="102.25dp"
+            android:layout_height="91dp"
+            android:onClick="b1"
+            app:layout_column="0"
+            app:layout_row="0"
+            app:srcCompat="@drawable/bomba" />
+
+        <ImageView
+            android:id="@+id/b2"
+            android:layout_width="102.25dp"
+            android:layout_height="91dp"
+            android:onClick="b2"
+            app:layout_column="1"
+            app:layout_row="0"
+            app:srcCompat="@drawable/bomba" />
+
+        <ImageView
+            android:id="@+id/b3"
+            android:layout_width="102.25dp"
+            android:layout_height="91dp"
+            android:onClick="b3"
+            app:layout_column="2"
+            app:layout_row="0"
+            app:srcCompat="@drawable/bomba" />
+
+        <ImageView
+            android:id="@+id/b4"
+            android:layout_width="102.25dp"
+            android:layout_height="91dp"
+            android:onClick="b4"
+            app:layout_column="3"
+            app:layout_row="0"
+            app:srcCompat="@drawable/bomba" />
+
+        <ImageView
+            android:id="@+id/b5"
+            android:layout_width="102.25dp"
+            android:layout_height="91dp"
+            android:onClick="b5"
+            app:layout_column="0"
+            app:layout_row="1"
+            app:srcCompat="@drawable/bomba" />
+
+        <ImageView
+            android:id="@+id/b6"
+            android:layout_width="102.25dp"
+            android:layout_height="91dp"
+            android:onClick="b6"
+            app:layout_column="1"
+            app:layout_row="1"
+            app:srcCompat="@drawable/bomba" />
+
+        <ImageView
+            android:id="@+id/b7"
+            android:layout_width="102.25dp"
+            android:layout_height="91dp"
+            android:onClick="b7"
+            app:layout_column="2"
+            app:layout_row="1"
+            app:srcCompat="@drawable/bomba" />
+
+        <ImageView
+            android:id="@+id/b8"
+            android:layout_width="102.25dp"
+            android:layout_height="91dp"
+            android:onClick="b8"
+            app:layout_column="3"
+            app:layout_row="1"
+            app:srcCompat="@drawable/bomba" />
+
+        <ImageView
+            android:id="@+id/b9"
+            android:layout_width="102.25dp"
+            android:layout_height="91dp"
+            android:onClick="b9"
+            app:layout_column="0"
+            app:layout_row="2"
+            app:srcCompat="@drawable/bomba" />
+
+        <ImageView
+            android:id="@+id/b10"
+            android:layout_width="102.25dp"
+            android:layout_height="91dp"
+            android:onClick="b10"
+            app:layout_column="1"
+            app:layout_row="2"
+            app:srcCompat="@drawable/bomba" />
+
+        <ImageView
+            android:id="@+id/b11"
+            android:layout_width="102.25dp"
+            android:layout_height="91dp"
+            android:onClick="b11"
+            app:layout_column="2"
+            app:layout_row="2"
+            app:srcCompat="@drawable/bomba" />
+
+        <ImageView
+            android:id="@+id/b12"
+            android:layout_width="102.25dp"
+            android:layout_height="91dp"
+            android:onClick="b12"
+            app:layout_column="3"
+            app:layout_row="2"
+            app:srcCompat="@drawable/bomba" />
+
+        <ImageView
+            android:id="@+id/b13"
+            android:layout_width="102.25dp"
+            android:layout_height="91dp"
+            android:onClick="b13"
+            app:layout_column="0"
+            app:layout_row="3"
+            app:srcCompat="@drawable/bomba" />
+
+        <ImageView
+            android:id="@+id/b14"
+            android:layout_width="102.25dp"
+            android:layout_height="91dp"
+            android:onClick="b14"
+            app:layout_column="1"
+            app:layout_row="3"
+            app:srcCompat="@drawable/bomba" />
+
+        <ImageView
+            android:id="@+id/b15"
+            android:layout_width="102.25dp"
+            android:layout_height="91dp"
+            android:onClick="b15"
+            app:layout_column="2"
+            app:layout_row="3"
+            app:srcCompat="@drawable/bomba" />
+
+        <ImageView
+            android:id="@+id/b16"
+            android:layout_width="102.25dp"
+            android:layout_height="91dp"
+            android:onClick="b16"
+            app:layout_column="3"
+            app:layout_row="3"
+            app:srcCompat="@drawable/bomba" />
+
+        <ImageView
+            android:id="@+id/b17"
+            android:layout_width="102.25dp"
+            android:layout_height="91dp"
+            android:onClick="b17"
+            app:layout_column="0"
+            app:layout_row="4"
+            app:srcCompat="@drawable/bomba" />
+
+        <ImageView
+            android:id="@+id/b18"
+            android:layout_width="102.25dp"
+            android:layout_height="91dp"
+            android:onClick="b18"
+            app:layout_column="1"
+            app:layout_row="4"
+            app:srcCompat="@drawable/bomba" />
+
+        <ImageView
+            android:id="@+id/b19"
+            android:layout_width="102.25dp"
+            android:layout_height="91dp"
+            android:onClick="b19"
+            app:layout_column="2"
+            app:layout_row="4"
+            app:srcCompat="@drawable/bomba" />
+
+        <ImageView
+            android:id="@+id/b20"
+            android:layout_width="102.25dp"
+            android:layout_height="91dp"
+            android:onClick="b20"
+            app:layout_column="3"
+            app:layout_row="4"
+            app:srcCompat="@drawable/bomba" />
+
+        <ImageView
+            android:id="@+id/i1"
+            android:layout_width="102.25dp"
+            android:layout_height="91dp"
+            app:layout_column="0"
+            app:layout_row="0"
+            app:srcCompat="@drawable/patlama" />
+
+    </androidx.gridlayout.widget.GridLayout>
+
+    <TextView
+        android:id="@+id/scorText"
+        android:layout_width="208dp"
+        android:layout_height="57dp"
+        android:text="Skorunuz : 0"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/gridLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/timeText"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/timeText"
+        android:layout_width="208dp"
+        android:layout_height="57dp"
+        android:text="Time : 30   "
+        android:textAlignment="center"
+        android:textColor="@color/purple_700"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/gridLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
